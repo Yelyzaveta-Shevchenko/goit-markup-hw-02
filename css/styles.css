@@ -1,9 +1,11 @@
+/* #region Fonts */
 .raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -15,20 +17,56 @@
     font-weight: 500;
     font-style: normal;
 }
+/* #endregion */
 
+
+/* #region */
+/* #endregion */
+
+
+/* #region Base */
 body {
  font-family: "Roboto", sans-serif;
- color: #434455;
+ color: #2e2f42;
  background-color:#fff;;
 }
- 
-ul {
-    list-style-type: none;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+   
 }
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ 
+address {
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+/* #endregion */
+
 .span-word-up {
      color: #2e2f42;
 }
@@ -42,6 +80,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+/* #region Navigation */
 .nav-list-item {
     font-weight: 500;
     line-height: 1.5;
@@ -77,32 +116,39 @@ address{
     color: #404bbf;
 
 }
+/* #endregion */
 .descr-section {
     background-color: #2e2f42;
 }
 
+
+/* #region MainPage*/
 .main-title {
-font-weight: 700;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
+
 .main-page-button {
     cursor: pointer;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
 
 }
+
 .main-page-button:hover,
 .main-page-button:focus {
-    background-color:#404BBF;
+    background-color: #404BBF;
 }
+/* #endregion */
+
 
 .third-title {
     font-weight: 500;
@@ -140,6 +186,7 @@ font-weight: 700;
     background-color: #FFFFFF;
 }
 
+/* #region Footer */
 .footer-box 
 {
     background-color:#2e2f42;
@@ -155,3 +202,4 @@ font-weight: 700;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+/* #endregion */
